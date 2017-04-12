@@ -1,0 +1,283 @@
+
+
+li{
+	list-style: none;
+}
+.navBar {
+  background-image: -moz-linear-gradient( 90deg, rgb(51,51,51) 0%, rgb(62,62,62) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(51,51,51) 0%, rgb(62,62,62) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(51,51,51) 0%, rgb(62,62,62) 100%);
+  position: absolute;
+  left: 0px;
+  top: -1px;
+  width: 1350px;
+  height: 72px;
+  z-index: 4;
+}
+
+.email {
+  background-color: rgb(238, 238, 238);
+  position: absolute;
+  left: 591px;
+  top: 7px;
+  width: 200px;
+  height: 27px;
+  z-index: 7;
+}
+
+.password {
+  background-color: rgb(238, 238, 238);
+  position: absolute;
+  left: 803px;
+  top: 7px;
+  width: 201px;
+  height: 27px;
+  z-index: 8;
+}
+
+.submit {
+  background-color: rgb(154, 154, 154);
+  position: absolute;
+  left: 1014px;
+  top: 7px;
+  width: 61px;
+  height: 27px;
+  z-index: 9;
+}
+
+.sign_message {
+  
+  position: absolute;
+  left: 803px;
+  padding-top: 40px;
+  width: 200px;
+  font-size: 17px;
+  color: #fff;
+  z-index: 9;
+  color: #fff;
+}
+
+.process {
+  background-color: rgb(51, 51, 51);
+  position: absolute;
+  left: 0px;
+  top: 555px;
+  width: 1350px;
+  height: 350px;
+  z-index: 12;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 0px;
+  top: 867px;
+  width: 1350px;
+  height: 62px;
+  z-index: 13;
+}
+
+.mainBg{
+  background:url("thumbnail/mainBg.png");
+  position: absolute;
+  left: 0px;
+  top: 68px;
+  width: 1350px;
+  height: 489px;
+  z-index: 5;
+}
+
+hr{
+	color: grey;
+	opacity: 0.3;
+	width: 70%;
+	top: 50px;
+}
+
+.mainBg form {
+
+  border-radius: 1px;
+  background-color: rgb(238, 238, 238);
+  box-shadow: 1px 0px 2px 0px rgba(0, 0, 0, 0.49);
+  position: relative;
+  left: 475px;
+  top: 25px;
+  padding-top: 20px;
+  width: 450px;
+  height: 450px;
+  z-index: 11;
+  text-align: center;
+
+
+}
+#input label{
+	text-align: left;
+	color: #2d2d2d;
+	font-family:Rockwell,Serif;
+}
+
+.form_input_text {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(198, 198, 198);
+  background-color: rgb(253, 253, 253);
+  position: absolute;
+  left: 503px;
+  top: 189px;
+  width: 342px;
+  height: 33px;
+  z-index: 12;
+}
+
+#join {
+
+	background: url("thumbnail/join.png");
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(233, 172, 26);
+  left: 503px;
+  top: 466px;
+  width: 345px;
+  height: 38px;
+  margin-left:8px;
+  margin-top: 0px;
+  font-size: 24px;
+  z-index: 13;
+}
+
+
+.email1 {
+  background-color: rgb(238, 238, 238);
+  position: absolute;
+  left: 491px;
+  top: 35px;
+  width: 200px;
+  height: 27px;
+  z-index: 7;
+}
+
+.password1 {
+  background-color: rgb(238, 238, 238);
+  position: absolute;
+  left: 703px;
+  top: 35px;
+  width: 201px;
+  height: 27px;
+  z-index: 8;
+}
+
+
+
+.sign_message1 {
+  
+  position: absolute;
+  left: 350px;
+  top: 40px;
+  width: 201px;
+  height: 27px;
+  z-index: 10;
+  font-size: 18px;
+}
+
+
+#input_text{
+	left: 502px;
+	border-width: 1px;
+	width: 350px;
+	height: 35px;
+	border-color: rgb(198, 198, 198);
+   background-color: rgb(253, 253, 253);
+   border-style: solid;
+   margin-bottom:0px;
+   margin-left:6px;
+
+}
+
+
+.submit1 {
+  background-color: rgb(154, 154, 154);
+  position: absolute;
+  left: 920px;
+  top: 35px;
+  width: 100px;
+  height: 27px;
+  z-index: 9;
+}
+
+a{
+	text-decoration:none;
+	color:#2d2e2d;
+}
+a:hover ,a:focus{
+	color:#2d2e2d;
+	text-decoration:none;	
+}
+.search{
+	margin-bottom: 90px;
+	width: 100%;
+	color: #fed;
+	font-size: 14px;
+}
+
+.directory{
+	width: 80%;
+	margin-left:60px;
+	
+}
+.directory p{
+		color: #fff;
+	
+}
+
+.directory a{
+	text-decoration:none;
+	color:#edebeb;
+}
+
+
+.general{
+	margin-top: -15px;
+	width: 45%;
+	padding-left: 60px;
+}
+.business{
+	width: 45%;
+	float: right;
+	margin-top: -15px;
+}
+.link{
+	width: 45%;
+	
+	margin-top: -15px;
+	padding-left: 60px;
+
+}
+.direct{
+	width: 50%;
+	
+	margin-top: -100px;
+	margin-left:60px ;
+	float: right;
+	padding-left: 100px;
+
+
+}
+
+.services h3, small{
+	color:#dbdbdb;
+}
+
+
+.footer-links li{
+	list-style:none;
+	display: inline-table;
+	margin-bottom:40px;
+}
+.footer-links li a{
+	padding:20px;
+	color:#333;
+	font-size:12px;
+}
+.footer-links li a:hover,.footer-links li a:focus{
+	color:#666464;
+}
